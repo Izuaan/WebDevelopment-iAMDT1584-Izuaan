@@ -1,0 +1,414 @@
+.navigation-bar {
+    margin-left:59%;
+    
+}
+
+.hHeader {
+    text-align: center;
+    padding:50px;
+    position:fixed;
+    width:100%;
+    margin-left:300px;
+
+    padding-left:500px;
+    margin-top:-50px;
+    box-sizing: border-box;
+    transition: 0.9s;
+    
+}
+
+.sideNav {
+    background:#D6EAF8;
+    position: fixed;
+    left:0;
+    width:200px;
+    height:100%;
+    padding-top:80px;
+}
+
+.sideNav a {
+    display:block;
+    line-height: 25px;
+    padding:30px;
+    width:100%;
+    padding-left:15px;
+    margin-bottom:30px;
+    text-decoration:none;
+    transition:0.5s;
+    transition-property:background;
+    text-align: left;
+    color:#2874A6;
+    font-family: 'Open Sans', sans-sherif;
+    font-weight: 500;
+    font-size: 15px;
+    font-variant: 50px;
+}
+.sideNav :hover {
+    background:#FEF9E7; 
+}
+
+#navimg {
+    margin-right:10px;
+}
+
+
+#check:checked ~ .sideNav {
+    left:-100px;
+}
+
+#check:checked ~ .sideNav a span{
+    display:none;
+}
+
+#check:checked ~ .sideNav a{
+    font-size:20px;
+    margin-left:120px;
+    width:120px;
+    text-align:left;
+}
+
+#check:checked ~ #sidebutton {
+    font-size:20px;
+    margin-left:120px;
+    width:80px;
+    text-align:left;
+}
+
+#check {
+    display: none;
+}
+
+.HContainer {
+    width: 1200px;
+    min-height:500px;
+    margin-left:250px;
+    padding-top:350px;
+    display:Flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    background-color: #FCFCFC;
+    
+}
+
+.HContainer .Box1 {
+    position:relative;
+    width: 900px;
+    box-sizing: border-box;
+    display:inline-block;
+    margin-left:150px;
+    margin-bottom:100px;
+}
+
+.HContainer .Box1 .imgbox1 {
+    position:relative;
+    overflow: hidden;
+}
+
+.HContainer .Box1 .imgbox1 img {
+    max-width:900px;
+    transition: transform 2s;
+}
+
+.HContainer .Box1 .imgbox1 img:hover{
+    transform:scale(1.2);
+
+}
+
+.HContainer .Box1 .imgD {
+    position:absolute;
+    top:50px;
+    bottom:50px;
+    left:50px;
+    right:50px;
+    text-align: center;
+    background-color:rgba(0,0,0,.50);
+    transform: scaleY(0);
+    transition:transform .5s;
+}
+
+.HContainer .Box1:hover .imgD {
+    transform: scaleY(1);
+}
+
+.HContainer .Box1 .imgD h3 {
+    margin:0;
+    padding:130px;
+    font-size:60px;
+    color:white;
+}
+
+.HContainer .Box1 .imgD p {
+    margin:-20px;
+    padding:-20px;
+    font-size:40px;
+    color:white;
+}
+
+.HContainer .Box1 .imgD3 {
+    position:absolute;
+    top:50px;
+    bottom:50px;
+    left:50px;
+    right:50px;
+    text-align: center;
+    background-color:rgba(0,0,0,.50);
+    transform: scaleY(0);
+    transition:transform .5s;
+}
+
+.HContainer .Box1:hover .imgD3 {
+    transform: scaleY(1);
+}
+
+.HContainer .Box1 .imgD3 h3 {
+    margin:0;
+    padding:50px;
+    font-size:60px;
+    color:white;
+}
+
+.HContainer .Box1 .imgD3 p {
+    margin:-20px;
+    padding:-20px;
+    font-size:40px;
+    color:white;
+}
+
+.footer1 {
+    height:70px;
+    padding-top:10px;
+    background-color: #F0FBFF;  
+    width: 100%;
+    font-family: 'Open Sans', sans-sherif;
+    position: relative;
+    width: 100%;;
+    text-align: center;
+    clear:both;
+
+}
+
+.p1 {
+    float:left;
+    width: 33.3%;
+    text-align: center;
+    font-size: 12px;
+}
+
+.p1 h5 {
+    font-size:15px;
+}
+
+
+.p2{
+    float:left;
+    width: 33.3%;
+    text-align: center;    
+    font-size: 12px;
+}
+.p2 h5 {
+    font-size:15px;
+}
+
+
+.social1 {
+    float:left;
+    width: 33.3%;
+    text-align: center;
+}
+
+.social1 h5{
+    font-size: 15px;
+}
+
+#fbID {
+    margin-right:15px;
+}
+
+#Tmain {
+    padding-top:50px;
+    margin-left:123px;
+    min-height: 100%;
+    margin-bottom:67px;
+}
+
+#TSUB {
+    background-color: #F2F2F2;
+    padding-bottom:50px;
+    padding-top:10px;
+    padding-right:20px;
+}
+
+#Tleftgroup {
+    margin-top:30px;
+}
+
+#Tgroupright {
+    padding-left:70px;
+}
+
+#Tsugform {
+    margin-bottom:20px;
+}
+
+.DevHeader {
+    text-align: center;
+    padding-top:50px;
+}
+
+#TSUB2 {
+    background-color: #F2F2F2;
+    margin-left:260px;
+    padding-bottom:50px;
+}
+.DSUB {
+    display:block;
+}
+
+.Dleft {
+    padding-top:20px;
+    background-color: #E9E9E9;
+    float: left;
+    margin-top:100px;
+    padding-right:100px;
+    margin-left:20px;
+    padding-bottom:100px;
+    margin-bottom:50px;
+}
+
+.Dright {
+    padding-top:20px;
+    background-color: #E9E9E9;
+    float:right;
+    margin-top:100px;
+    padding-left: 50px;
+    padding-bottom:100px;
+    margin-bottom:50px;
+
+}
+
+.DHead {
+    font-family: 'Open Sans', sans-sherif;
+    text-align: center;
+    font-weight:600;
+}
+
+.Dul1 {
+    text-align: center;
+    background-color: #E1E1E1;
+    margin-left:20px;
+    padding-right:30px;
+    margin-top:50px;
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-bottom:50px;
+}
+
+.Dul2 {
+    padding:20px;
+    text-align: center;
+    margin-right:20px;
+    text-align: center;
+    background-color: #E1E1E1;
+    margin-left:20px;
+    padding-right:30px;
+    margin-top:50px;
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-bottom:50px;
+}
+
+.DNpic {
+    display: block;
+    position:absolute;
+    padding-top:25px;
+    margin-left:40px;
+    border-style:outset;
+    border-width: 10px;
+    border-radius: 100%;
+    width: 180px;   
+}
+
+.DNname {
+    display:block;
+    margin-left:280px;
+    padding-top:70px;
+    font-size: 500px;
+    font-family: 'Open Sans', sans-sherif;
+}
+
+.Dcontact {
+    margin-left:100px;
+}
+
+.Dcontact h3 {
+    font-family: 'Open Sans', sans-sherif;
+}
+
+.Dcontacting {
+    margin-top:-70px;
+    margin-left:200px;
+}
+
+#DIG {
+    color: #DD2a7B;
+    margin-left:150px;
+    margin-top:-70px;
+    text-decoration: none;
+}
+
+.Dcontact a:hover {
+    text-decoration: none;
+}
+
+#DIG:hover {
+    color:#88013e;
+}
+
+#Cmain {
+    height: 100%;
+    background-color: #F2F2F2;
+    margin-top: 1px;
+    margin-left: 55px;
+    padding:20px;
+    padding-bottom: 50px;
+    margin-bottom:50px;
+}
+
+.Cname1 {
+    margin-top:40px;
+    width:50%;
+    align-content: center;
+    margin-left:250px;
+}
+
+.Cemail1 {
+    width:50%;
+    align-content: center;
+    margin-left:250px;
+    margin-top: 20px;
+}
+
+.Caddress1 {
+    width:50%;
+    align-content: center;
+    margin-left:250px;
+    margin-top: 20px;
+}
+
+.Ccountry1 {
+    width:50%;
+    align-content: center;
+    margin-left:250px;
+    margin-top: 20px;
+}
+
+.CMessage1 {
+    width:50%;
+    align-content: center;
+    margin-left:250px;
+    margin-top: 20px;
+}
+
+.Cbutton1 {
+    margin-top:20px;
+}
